@@ -1,18 +1,15 @@
-/* Resetting default margin and padding */
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Body styles */
 body {
     background-color: black;
     color: white;
     font-family: 'Archivo Black', sans-serif;
     line-height: 1.6;
 }
-
 
 .navbar {
     background-color: black;
@@ -24,7 +21,6 @@ body {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-    transition: color 0.3s ease;
 }
 
 .navbar a:hover {
@@ -35,14 +31,12 @@ body {
     color: yellow;
 }
 
-/* Main content styles */
 .main-content {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Intro section styles */
 .intro-section {
     text-align: left;
     margin-bottom: 40px;
@@ -63,7 +57,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Showreel section styles */
+
 .showreel-section {
     text-align: center;
     margin-bottom: 40px;
@@ -90,14 +84,14 @@ body {
     height: 100%;
 }
 
-/* Services section styles */
+
 .services-container {
     text-align: center;
     margin-bottom: 40px;
 }
 
 th {
-    padding: 20px; /* Add padding around the content */
+    padding: 20px; 
 }
 
 .services-container h1 {
@@ -130,14 +124,13 @@ th {
     margin-bottom: 20px;
 }
 
-/* About section styles */
 .profile-image {
     float: left;
-    margin-right: 20px; /* Adjust margin as needed */
+    margin-right: 20px; 
 }
 
 .about-text {
-    overflow: hidden; /* Clear float */
+    overflow: hidden;
 }
 
 .about-text p {
@@ -157,7 +150,7 @@ th {
 
 .about-text ul li:before {
     content: "\2022"; /* Bullet point */
-    color: yellow; /* Yellow bullet point */
+    color: yellow; 
     font-size: 16px;
     margin-right: 5px;
 }
@@ -166,7 +159,7 @@ th {
     text-align: center;
     margin-bottom: 20px;
 }
-/* Contact section styles */
+
 .contact-image {
     text-align: center;
     margin-bottom: 40px;
@@ -201,7 +194,6 @@ th {
     text-decoration: none;
 }
 
-/* Blog section styles */
 .blog-post {
     margin-bottom: 40px;
 }
